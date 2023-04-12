@@ -12,28 +12,32 @@ console.log("-------------------------------------");
 console.log("==IF-ELSE IF== 4 Islem Hesap Makinesi");
 console.log("-------------------------------------");
 
-// const sayi1 = +prompt("1. sayiyi giriniz"); //basina + koyarsak ifadeyi Number'a cevirir
-// const islem = prompt("+,-,*,/ islemlerinden birini giriniz");
-// const sayi2 = Number(prompt("2. sayiyi giriniz"));
+const sayi1 = +prompt("1. sayiyi giriniz"); //basina + koyarsak ifadeyi Number'a cevirir
+const islem = prompt("+,-,*,/ islemlerinden birini giriniz");
+const sayi2 = Number(prompt("2. sayiyi giriniz"));
 
-// let sonuc = 0;
+let sonuc = 0;
 
 //! if'in icinde tek bir satirda komut vereceksek. Süslü parantez acmamiza gerek yoktur! Asagidaki ilk örnekte süslüyü kaldirdim ve calisti.
 
-// if (islem == "+") sonuc = sayi1 + sayi2;
-// else if (islem == "-") {
-//   sonuc = sayi1 - sayi2;
-// } else if (islem == "*") {
-//   sonuc = sayi1 * sayi2;
-// } else if (islem == "/") {
-//   if (sayi2 != 0) {
-//     sonuc = sayi1 / sayi2;
-//   } else alert("payda sifir olamaz)");
-// } else {
-//   alert("yanlis islem girdiniz");
-// }
+if (islem == "+") sonuc = sayi1 + sayi2;
+else if (islem == "-") {
+ sonuc = sayi1 - sayi2;
+} else if (islem == "*") {
+sonuc = sayi1 * sayi2;
+} 
 
-// console.log(sonuc);
+else if (islem == "/") {
+if (sayi2 != 0) {
+sonuc = sayi1 / sayi2;
+} else  ;
+} 
+
+else {
+alert("yanlis islem girdiniz");
+}
+
+console.log(sonuc);
 
 //* ÖRNEK
 

@@ -4,6 +4,7 @@ const sucuk=250;
 const cola=20;
 const peynir=200;
 
+
 let toplam=sucuk+cola+peynir;
 
 console.log(toplam);
@@ -36,6 +37,7 @@ const s1=5;
 const s2="7";
 
 console.log(s1+s2); //57
+
 //* çıkarma işleminde verilerden biri number ise diğeri tırnaklı number olsa bile çıkarma yapar
 console.log(s1-s2); //-2
 
@@ -54,9 +56,9 @@ console.log(`${name1} ${2023-dogumTarihi} yasindadir`);
 // ARTTIRMA AZATLMA
 
 let a = 5;
-console.log("ilk", a++);
-console.log("ikinci", a);
-let b=a++;
+console.log("ilk", a++);  //5 'i yazdir sonra bir ekle
+console.log("ikinci", a);  // 6 1 eklnemis hali
+let b=a++;  // a'yi b'ye esitle sonra bir ekle.  
 
 console.log(a);//7
 console.log(b);//6
