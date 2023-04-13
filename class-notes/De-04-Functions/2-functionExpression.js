@@ -18,7 +18,6 @@ const tekCift=function(sayi){
 
     sayi % 2 == 0 ? "cifttir" : "tektir"
 
-
 }
 
 alert(tekCift(15))
@@ -28,7 +27,7 @@ alert(tekCift(15))
 
 let buyukBul=function(x,y,z) {
     let enBuyuk;
-    if(x>y && x>y){
+    if(x>y && x>z){
         enBuyuk=x
     }else if(y>x && y>z){
         enBuyuk=y
@@ -47,6 +46,7 @@ alert(buyukBul(3,5,9))
 const usAl=function(s1, s2){
 return s1**s2
 }
+
 
 const cevreBul=function(s1, s2){
 return (s1+s2)*2
@@ -68,7 +68,5 @@ else if(secim=="üs"){
 }
 return sonuc
 }
-
-console.log("alanin sonucu:", hesapla("alan", 3, 5))
 console.log("cevrenin sonucu:",hesapla("cevre", 3, 5))
 console.log("üssün sonucu:",hesapla("üs", 3, 5))
