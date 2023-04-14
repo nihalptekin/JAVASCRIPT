@@ -67,9 +67,9 @@ const s4="primitive \n veri tiplerinin \n property ya \n da methodu olmaz"
 console.log(s4);
 
 console.log(s4.charAt(5)); //t  0'dan baslar
-console.log(s4.charAt(9)); //t  0'dan baslar
-console.log(s4.charAt()); //t  0'dan baslar
-console.log(s4.charAt(s4.length-1)); //t  0'dan baslar
+console.log(s4.charAt(9)); //  0'dan baslar
+console.log(s4.charAt()); //p 0'dan baslar
+console.log(s4.charAt(s4.length-1)); //z  0'dan baslar
 
 
 // *=========================================================
@@ -122,7 +122,7 @@ console.log(kelime2.search(/[^a-z]/)); //anin önündeki kücük harf disindakil
 //* ----------------------------------------------------------
 //* startsWith(), endsWith() -- case sensitive
 //* ----------------------------------------------------------
-const kelime3="Salına salına  sinsice olurum sana!"
+const kelime3="Salına salına sinsice olurum sana!"
 
 console.log(kelime3.startsWith("sa"));//false
 console.log(kelime3.startsWith("Sa"));//true

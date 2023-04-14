@@ -1,15 +1,17 @@
+let daltones = ['joe', 'Jack', 'Willam', 'Averell']
+for(let i =0; i< daltones.length; i++){
+    if(i == 0){
+continue; }
+    console.log(daltones[i]);
+}
 
-let cikis;
-let num;
-let Vize;
-do { let vize = +prompt("Lütfen notunuzu giriniz")
-     let toplam+= vize;
-     let num++;
-     
-     let ortalama=toplam/num
-     console.log(ortalama);
-     cikis=prompt("Cikmak istiyorsaniz q/Q girin")
-    
-} while(cikis.toUpperCase() == "q");
 
-  
+
+const capitalizeFirstLetter = (inputString) => {
+    let inputString = "Lorem \n ipsum \n dolor  \n sit \n amet, \n consectetur \n
+     adipiscing \n elit."
+ }
+ console.log(capitalizeFirstLetter(inputString).chartAt()) // Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
+
+console.log(.charAt().toLowerCase());
+console.log(s4.charAt(5));
