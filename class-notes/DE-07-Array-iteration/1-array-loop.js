@@ -98,8 +98,9 @@ const findAnimal = () => {
     if (animal[i] == userAnimal) sayac++;
   }
 
-  return ` ${userAnimal} hayvanından  ${sayac} adet bulunmaktadır`;
+  return sayac==0 ? "bu hayvandan bulunmamaktadir" : ` ${userAnimal} hayvanından  ${sayac} adet bulunmaktadır`;
 };
+
 
 // alert(findAnimal());
 
