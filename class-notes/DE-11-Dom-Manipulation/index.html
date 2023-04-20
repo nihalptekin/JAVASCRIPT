@@ -1,31 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-</head>
-<body>
-    <h1 >Örnekler</h1>
-<main class="text-center" p-4>
+  </head>
+  <body>
+    <h1>Örnekler</h1>
+    <main class="text-center" p-4>
+      <img class="resim" src="img/img2.jpg" alt="kükre" />
+      <div class="mt-4">
+        <audio
+          class="ses1"
+          src="img/retro-ringtone .mp3"
+          style="width: 0"
+        ></audio>
+        <audio
+          class="ses2"
+          src="img/Aslan Kükreme Sesi.mp3"
+          style="width: 0"
+        ></audio>
+        <button class="ara btn btn-outline-warning">Ara</button>
+        <button class="baglat btn btn-outline-primary">Baglat</button>
+        <button class="konus btn btn-outline-danger">Konus</button>
+      </div>
 
-<img class="resim" src="img/img2.jpg" alt="kükre">
-<div class="mt-4">
-    <audio class="ses1" src="img/retro-ringtone .mp3" style="width: 0;"></audio>
-    <audio class="ses2" src="img/Aslan Kükreme Sesi.mp3" style="width: 0;" ></audio>
-    <button class="ara btn btn-outline-warning">Ara</button>
-    <button class=" baglat btn btn-outline-primary">Baglat</button>
-    <button class="konus btn btn-outline-danger">Konus</button>
+      <div class="input-div mt-4">
+        <label for="textbox">Bir seyler yaziniz</label>
+        <input class="textbox" type="text" value="" />
+
+        <label for="checkbox"> Kücük/Büyük</label>
+        <input class="checkbox" type="checkbox" />
+
+        <!-- checked diyde bir attribute eklersek tikli gelir -->
+      </div>
+    </main>
+
+
+    <section class="border border-danger mb-5">
+        <ul class="liste">
+            <li>Javascript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>SQL</li>
+        </ul>
+<div>
+    <input class="languages me-1 ms-1" type="text">
+    <button class="ekle btn btn-success me-1">Ekle</button>
+    <button class="sil btn btn-danger me-1">Sil</button>
 </div>
-
-</main>
+    </section>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
