@@ -146,3 +146,24 @@ document.querySelector(".sil").onclick=()=>{
     // liste.removeChild(liste.firstElementChild)
 
 }
+
+//! Klavyedeki keyCodelari kullanarak kod yazma
+
+// dil = input
+
+dil.onkeydown=(tus)=>{
+    console.log(tus.keyCode);
+    //! enter yani 13'e basilinca ekle
+if(tus.keyCode === 13){
+    document.querySelector(".ekle").click()
+}
+
+//!shifte basarken sil
+
+if(tus.keyCode===16){
+    document.querySelector(".sil").click()
+}
+}
+
+//*eventlarda alinan parametreler bize eventla ilgili özellilerin olduju bir nesne döndürür. burada keyCode property'sini kullandik. 
+//*keycodelari fonsiyonun icine tus yazip console logda okutursak bircok bilgi cikiyor keyCode da onalardan biri. Ama sadece bir özelliginn calismasini istiyorsak. Fonksiyon adi (burada tus idi).ve veri adi yazariz. tus.keyCode gibi.- o zaman sadece o özelligi gösterir. 
