@@ -9,6 +9,7 @@ console.log("************ 1- FUNC DECLARATION *************");
 
 //*Örnek1:****************************************************************/
 
+
 //? funksiyonun tanimlanmasi
 //yazdir()
 function yazdir(params) {

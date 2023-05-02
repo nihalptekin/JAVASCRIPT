@@ -12,6 +12,7 @@ console.log("****** 3- ARROW FUNCTIONS ******");
 // //! Once fonks tanimlanmalidir sonra cagrilmalidir.
 // //! Aksi takdirde hata alırsiniz.
 
+
 //*Ornek1 3 ün katı mı diye kontrol etme
 //************************************ */
 
@@ -52,7 +53,7 @@ const menu=()=>{
 
     //  sayinin sonuna eger .toFixed(3) yazarsak virgülden sonra 3 sayi yazsin demek. Parantez icine ne yazarsak o kadar sayi olur
 // toFixed(a)=virgüllü bir sayıda, virgülden sonra istediğimiz adette (a) rakam görmemizi sağlar
-     //* ORNEK5: Girilen n. terimdeki  Fibonacci sayisını  yazdiran fonksiyonu dongu ile kodlayiniz.
+//* ORNEK5: Girilen n. terimdeki  Fibonacci sayisını  yazdiran fonksiyonu dongu ile kodlayiniz.
 //? FIBONACCI terimleri:  1, 1, 2, 3, 5, 8, 13, 21, ...
 
 
