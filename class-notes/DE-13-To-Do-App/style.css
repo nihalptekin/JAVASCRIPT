@@ -94,13 +94,21 @@ ul li:nth-child(even) {
 
 li i {
   padding: 1rem;
-  color: #ea0a0a;
+  color: #e30b2b;
   cursor: pointer;
+
 }
 
 li i:hover {
   opacity: 0.3;
 }
+
+li i.fa-trash{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
 
 
 
@@ -118,9 +126,9 @@ li p {
   margin-left: 3px;
 }
 /* li checked class ı varsa p ye olacaklar altta yazıyor*/
-li.checked > p {
+/* li.checked > p {
   color: rgb(41, 41, 41);
   text-decoration: line-through;
   font-weight: normal;
-}
+} */
 
